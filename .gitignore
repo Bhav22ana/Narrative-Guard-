@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Trained models
+models/
+
+# Evaluation outputs
+evaluation/
+
+# Generated tokenized data
+dataset/tokenized/
+
+# Generated processed datasets
+dataset/processed/*
+!dataset/processed/*.dvc
+!dataset/processed/.gitignore
+
+# Generated split datasets
+dataset/splits/*
+!dataset/splits/*.dvc
+!dataset/splits/.gitignore
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
